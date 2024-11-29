@@ -1,0 +1,74 @@
+/* Center the form on the screen */
+.centerDiv {
+    border: 1px solid black;
+    width: 100%;
+    max-width: 400px; /* Set a max-width to avoid too wide of a form */
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    background-color: #f8f8f8; /* Optional: Add a background color for better contrast */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  }
+  
+  /* General input styles */
+  .input {
+    width: 85%; /* Make inputs full-width */
+    padding: 12px; /* Add padding for better touch targets */
+    border: 1px solid #ddd; /* Soft border color */
+    border-radius: 4px; /* Rounded corners */
+    outline: none; /* Remove outline */
+    margin-bottom: 10px; /* Space below inputs */
+  }
+  
+  .input:focus {
+    border-color: #002f34; /* Highlight input when focused */
+    box-shadow: 0 0 5px rgba(0, 47, 52, 0.5); /* Subtle shadow for focus */
+  }
+  
+  /* Button styling */
+  .uploadBtn {
+    width: 100%; /* Full width for button */
+    height: 48px;
+    margin-top: 20px; /* Margin from form fields */
+    background-color: #002f34; /* Dark button background */
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .uploadBtn:hover {
+    background-color: white; /* Change background on hover */
+    color: #002f34; /* Change text color on hover */
+    border: 2px solid #002f34; /* Add border on hover */
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Input field with error */
+  .input.error {
+    border-color: red; /* Change border color for inputs with errors */
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5); /* Optional: Add a red shadow for inputs with errors */
+  }
+  
+  /* Label styling */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; /* Space between label and input */
+  }
+  
+  /* Ensure good form spacing */
+  .form-group {
+    margin-bottom: 10px; /* Space between form fields */
+  }
+  
